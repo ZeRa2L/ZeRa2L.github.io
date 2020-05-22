@@ -58,6 +58,9 @@ hr {
 
 
 
+
+
+
 .navbar {
   font-weight: 800;
   font-size: 14px;
@@ -473,94 +476,72 @@ padding-top: 40px;
 
 
 
-footer {
-  float: left;
-  width: 100%;
-  height: 300px;
-  background: #2d2d2d;
-  color: #fff;
-}
 
-#footerInside {
-  position: relative;
-  width: 1100px;
-  margin: 0 auto;
-  height: 100%;
-}
-
-#copyrights {
-  position: absolute;
-  bottom: 10px;
-  width: 100%;
-  text-align: center;
+.testt {
   font-size: 20px;
-}
-
-#social i {
-  padding-top: 20px;
-  width: 100%;
-  height: 40px;
-  position: absolute;
-  bottom: 50px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  font-size: 30px;
-  padding-bottom: 40px;
-  color: #7b7b7b;
+  color: white;
+  padding-bottom: 80px;
 }
 
 
-
-#social i:hover {
-     color: #fff;
-     font-size: 40px;
-}
-
-
-#contacts {
-  position: absolute;
-  left: 0;
-  top: 20px;
-  width: 340px;
-  font-size: 20px;
-}
-
-.contactWrap {
-  float: left;
-  width: 100%;
-  margin-bottom: 10px;
-  line-height: 40px;
-}
-
-.contactIcon {
-  width: 40px;
-  height: 40px;
-  float: left;
-  margin-right: 10px;
-}
-
-#footerNav {
-  position: absolute;
-  right: 0;
-  top: 45px;
-  width: 200px;
-}
-
-#footerNav a {
-  display: block;
-  text-align: right;
-  color: #7b7b7b;
-  margin-bottom: 10px;
-  text-decoration: none;
-  font-size: 30px;
-  padding-top: 20px;
-}
-
-#footerNav a:hover {
-  color: #fff;
+.testt i {
   font-size: 40px;
+  color: #ff7878;
+}
+
+#testtt {
+  background: #2d2d2d;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 
+.tessttt {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 15px;
+}
+
+
+.tesssttt {
+  color: #7b7b7b;
+font-size: 30px;
+
+}
+
+
+.tesssttt:hover {
+  font-size: 30px;
+  color: white;
+}
+
+
+
+.t {
+  font-size: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 15px;
+}
+
+
+.t {
+  color:white;
+}
+
+.t a {
+  color: #7b7b7b;
+  font-size: 30px;
+}
+
+.t a:hover {
+  font-size: 30px;
+  color: white;
+  padding-bottom: 20px;
+}
+
+
+#te {
+  color: white;
+  font-size: 20px;
+  padding-top: 20px;
+  float: right;
+}
