@@ -545,3 +545,95 @@ font-size: 30px;
   padding-top: 20px;
   float: right;
 }
+
+
+#ob2 {
+  background: #2d2d2d;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  color: white;
+}
+
+
+
+
+
+#ob2 h1 {
+  padding-top: 5px;
+  color: white;
+}
+
+
+
+#ob2 .col-lg-4 {
+  font-size: 22px;
+  padding-top: 50px;
+}
+
+
+
+.test555 {
+  padding-top: 15px;
+}
+ 
+
+
+.test55 i {
+  font-size: 35px;
+}
+
+
+
+#ob2 i {
+ color: #ff7878;
+}
+
+
+
+.test45 i {
+  font-size: 28px;
+}
+
+
+
+#dg2 {
+  background-image: url(../img/c06.png);
+  background-attachment: fixed;
+  margin-top: -10px;
+  padding-top: 20px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 300px;
+  width: 100%;
+
+  background-size: 100%;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+
+
+#dg2 h1 {
+  color: white;
+}
+
+#dg2 p {
+  font-size: 25px;
+  padding-top: 30px;
+}
+
+
+#dg2 a {
+  color: #7b7b7b;
+  font-size: 25px;
+}
+
+
+#dg2 a:hover {
+  color: white;
+  font-size: 30px;
+}
