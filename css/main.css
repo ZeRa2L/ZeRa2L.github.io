@@ -443,11 +443,14 @@ hr {
 
 
 
-#d {
+#d1 {
   color: white;
 }
 
 
+#d2 {
+  color: white;
+}
 
 
 
@@ -855,3 +858,6 @@ font-size: 30px;
   padding-bottom: 50px;
   padding-top: 20px;
 }
+
+
+
