@@ -755,6 +755,9 @@ font-size: 30px;
   background-position: center center;
   min-height: 150px;
   width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
 
   background-size: 100%;
 
@@ -835,10 +838,9 @@ font-size: 30px;
 
 
 .slider__item img {
-  width: 50%;
+  width: 60%;
   height: 800px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  border: 3px solid #ff7878;
 }
 
 /* СЛАЙДЕР*/
