@@ -34,17 +34,13 @@ p {
   text-align: center;
 }
 
-a {
-  color: #f85c37;
+
+
+a:hover {
+  text-decoration: none;
 }
 
-a:hover,
-a:focus {
-  color: #7b7b7b;
-  text-decoration: none;
-  outline: 0;
-  font-size: 20px;
-}
+
 
 hr {
   display: block;
@@ -87,8 +83,14 @@ hr {
   letter-spacing: 1px;
 }
 
-.navbar-inverse .navbar-brand:hover {
-  font-size: 30px;
+
+
+
+
+.testtest {
+  border: 2px solid #ff7878;
+  border-radius: 40%;
+  background-color: #ff7878;
 }
 
 
@@ -416,7 +418,6 @@ hr {
   padding-top: 5px;
   color: white;
 }
-
 
 
 
