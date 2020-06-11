@@ -454,6 +454,15 @@ hr {
 }
 
 
+.tetete {
+  color: #999;
+}
+
+.tetete:hover {
+  color: #fff;
+}
+
+
 
 #photo1 {
 width: 400px;
