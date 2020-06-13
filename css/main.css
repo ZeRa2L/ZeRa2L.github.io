@@ -402,6 +402,36 @@ hr {
 /* стили для 2 страницы*/
 
 
+#video {
+  background-image: url(../img/wow.png);
+  background-attachment: fixed;
+  padding-top: 22px;
+  margin-top: -10px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 1px;
+  width: 100%;
+
+  background-size: 100%;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
+
+
+
+.tete {
+  font-size: 30px;
+}
+
+
 
 #ob {
   background: #2d2d2d;
