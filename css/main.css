@@ -90,7 +90,6 @@ hr {
 
 #headerwrap {
   background-image: url(../img/sky.jpg);
-  background-attachment: fixed;
   margin-top: -10px;
   padding-top: 22px;
   text-align: center;
@@ -228,7 +227,7 @@ padding: 10px;
 
 
 #wdg {
-  background-image: url(../img/water.png);
+  background-image: url(../img/sky2.jpg);
   background-attachment: fixed;
   margin-top: -10px;
   padding-bottom: 50px;
@@ -341,7 +340,7 @@ padding: 10px;
 
 
 #r {
-  background-image: url(../img/water2.png);
+  background-image: url(../img/sky3.jpg);
   background-attachment: fixed;
   padding-top: 22px;
   margin-top: -10px;
@@ -512,7 +511,7 @@ padding-top: 40px;
 
 
 #test2 {
-  background-image: url(../img/water.png);
+  background-image: url(../img/sky2.jpg);
   background-attachment: fixed;
   margin-top: -10px;
   padding-bottom: 50px;
@@ -755,14 +754,14 @@ font-size: 30px;
 
 
 #dg2 {
-  background-image: url(../img/water.png);
+  background-image: url(../img/sky2.jpg);
   background-attachment: fixed;
   margin-top: -10px;
-  padding-top: 20px;
+  padding-bottom: 50px;
   text-align: center;
   background-attachment: relative;
   background-position: center center;
-  min-height: 300px;
+  min-height: 250px;
   width: 100%;
 
   background-size: 100%;
@@ -800,7 +799,7 @@ font-size: 30px;
 
 
 #test0 {
-  background-image: url(../img/water.png);
+  background-image: url(../img/sky2.jpg);
   background-attachment: fixed;
   margin-top: -10px;
   padding-bottom: 50px;
@@ -886,7 +885,7 @@ font-size: 30px;
 .slider {
   position: relative;
   overflow: hidden;
-  background-image: url(../img/water.png);
+  background-image: url(../img/sky2.jpg);
   background-attachment: fixed;
   margin-top: -10px;
   padding-top: 22px;
