@@ -858,7 +858,12 @@ font-size: 30px;
 
 .dost {
   color:black;
+  background-color: #0dbaff;
+  border-radius: 50px 50px;
+  border: 1px solid #000;
 }
+
+
 
 
 .dost a {
@@ -869,7 +874,7 @@ font-size: 30px;
 
 
 .dost a:hover {
-  color: #0dbaff;
+  color: #fafafa;
 }
 
 .dosta {
@@ -877,7 +882,6 @@ font-size: 30px;
   padding-top: 10px;
 }
 
-   
 
 /* СЛАЙДЕР*/
 
