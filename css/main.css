@@ -306,20 +306,19 @@ padding: 10px;
   -o-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease;
+
 }
 
 
-
-
-.tilt:hover {
-  -webkit-transform: rotate(-10deg);
-  -moz-transform: rotate(-10deg);
-  -o-transform: rotate(-10deg);
-  -ms-transform: rotate(-10deg);
-  transform: rotate(-10deg);
-}
-
-
+  .tilt:hover {
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+  
+  
 
 
 
@@ -490,10 +489,12 @@ padding: 10px;
 
 .tetete {
   color: #999;
+  transition: 1s;
 }
 
 .tetete:hover {
   color: #0dbaff;
+  transition: 1s;
 }
 
 
@@ -561,13 +562,14 @@ padding-top: 40px;
 .tesssttt {
   color: #7b7b7b;
 font-size: 30px;
-
+transition: 1s;
 }
 
 
 .tesssttt:hover {
   font-size: 30px;
   color: #0dbaff;
+  transition: 1s;
 }
 
 
@@ -586,12 +588,14 @@ font-size: 30px;
 .t a {
   color: #7b7b7b;
   font-size: 30px;
+  transition: 1s;
 }
 
 .t a:hover {
   font-size: 30px;
   color: #0dbaff;
   padding-bottom: 20px;
+  transition: 1s;
 }
 
 
@@ -789,11 +793,13 @@ font-size: 30px;
 #dg2 a {
   color: #7b7b7b;
   font-size: 25px;
+  transition: 1s;
 }
 
 
 #dg2 a:hover {
   color: #0dbaff;
+  transition: 1s;
 }
 
 
@@ -828,12 +834,14 @@ font-size: 30px;
 #test0 a {
   color: #7b7b7b;
   font-size: 30px;
+  transition: 1s;
 }
 
 
 #test0 a:hover {
   color: #0dbaff;
   font-size: 30px;
+  transition: 1s;
 }
 
 
@@ -869,12 +877,14 @@ font-size: 30px;
 .dost a {
   color: #7b7b7b;
   font-size: 25px;
+  transition: 1s;
 }
 
 
 
 .dost a:hover {
   color: #fafafa;
+  transition: 1s;
 }
 
 .dosta {
