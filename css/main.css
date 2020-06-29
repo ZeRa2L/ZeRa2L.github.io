@@ -490,6 +490,24 @@ padding: 10px;
 
 
 
+@media screen and (max-width: 1200px) {
+  #text3 {
+    padding: 20px;
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .tete {
+    font-size: 30px;
+    padding-bottom: 40px;
+  }
+}
+
+
+
+
+
+
 #d1 {
   color: black;
 }
@@ -550,13 +568,15 @@ padding-top: 40px;
 .testt {
   font-size: 20px;
   color: white;
-  padding-bottom: 80px;
+  padding-bottom: 20px;
+  text-align: left;
 }
 
 
 .testt i {
   font-size: 40px;
   color: #0dbaff;
+  text-align: left;
 }
 
 #testtt {
@@ -566,16 +586,14 @@ padding-top: 40px;
 }
 
 
-.tessttt {
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 15px;
-}
+
 
 
 .tesssttt {
   color: #7b7b7b;
 font-size: 30px;
 transition: 1s;
+float: right;
 }
 
 
@@ -583,6 +601,7 @@ transition: 1s;
   font-size: 30px;
   color: #0dbaff;
   transition: 1s;
+  float: right;
 }
 
 
