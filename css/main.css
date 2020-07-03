@@ -1,7 +1,7 @@
 @import url("https://fontsgoogleapis.com/csss?family=Lato|Raleway");
 
 body {
-  background-color: #FAFAFA;
+  background-color: #2d2d2d;
   font-family: "Lato";
   font-weight: 300;
   font-size: 16px;
@@ -105,7 +105,7 @@ html {
 
 
 #headerwrap {
-  background-image: url(../img/sky.jpg);
+  background-image: url(../img/phon.jpg);
   margin-top: -10px;
   padding-top: 22px;
   text-align: center;
@@ -129,7 +129,7 @@ html {
 
 #headerwrap h1 {
   margin-top: 100px;
-  color: black;
+  color: white;
   font-size: 90px;
   font-weight: 300;
   letter-spacing: 3px;
@@ -140,7 +140,7 @@ html {
 
 
 #headerwrap h2 {
-  color: black;
+  color: white;
   font-size: 40px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -176,7 +176,7 @@ html {
 
 
 #o {
-  background: #FAFAFA;
+  background: #2d2d2d;
   padding-top: 5px;
   padding-bottom: 70px;
 }
@@ -186,7 +186,7 @@ html {
 
 
 #o h1 {
-  color: black;
+  color: white;
 }
 
 
@@ -194,7 +194,7 @@ html {
 
 
 #o h4 {
-  color: #0dbaff;
+  color: #8A0886;
   font-size: 30px;
 }
 
@@ -203,7 +203,7 @@ html {
 
 
 #o {
-  color: black;
+  color: white;
 }
 
 
@@ -218,7 +218,7 @@ padding: 10px;
 #o i {
   font-size: 40px;
   padding: 30px;
-  color: #0dbaff;
+  color: #8A0886;
   padding-top: 70px;
   padding-bottom: 10px;
 }
@@ -243,7 +243,7 @@ padding: 10px;
 
 
 #wdg {
-  background-image: url(../img/sky2.jpg);
+  background-image: url(../img/phon2.jpg);
   background-attachment: fixed;
   margin-top: -10px;
   padding-bottom: 50px;
@@ -266,7 +266,7 @@ padding: 10px;
 
 
 #wdg p {
-  color: black;
+  color: white;
   font-size: 30px;
   padding-top: 70px;
 }
@@ -275,7 +275,7 @@ padding: 10px;
 
 
 #wdg h1 {
-  color: black;
+  color: white;
   padding-top: 50px;
 }
 
@@ -286,13 +286,13 @@ padding: 10px;
 
 
 .te00st1 {
-  border: 3px solid #0dbaff;
+  border: 3px solid #8A0886;
   width: 100%;
 }
 
 #dg h4 {
   font-size: 40px;
-  color: black;
+  color: white;
   padding-top: 70px;
 }
 
@@ -300,14 +300,14 @@ padding: 10px;
 
 
 #dg {
-  background: #FAFAFA;
+  background: #2d2d2d;
 }
 
 
 
 
 #dg p {
-  color: black;
+  color: white;
   font-size: 30px;
   padding-top: 70px;
   padding-bottom: 100px;
@@ -355,7 +355,7 @@ padding: 10px;
 
 
 #r {
-  background-image: url(../img/sky3.jpg);
+  background-image: url(../img/phon3.jpg);
   background-attachment: fixed;
   padding-top: 22px;
   margin-top: -10px;
@@ -379,7 +379,7 @@ padding: 10px;
 
 
 #r h4 {
-  color: black;
+  color: white;
   font-size: 45px;
   padding-bottom: 0px;
 }
@@ -388,12 +388,12 @@ padding: 10px;
   padding-top: 50px;
   padding-bottom: 70px;
   font-size: 30px;
-  color: black;
+  color: white;
 }
 
 
 #rp {
-  color: black;
+  color: white;
   font-size: 30px;
   padding: 20px;
 }
@@ -403,7 +403,7 @@ padding: 10px;
 
 #ar i {
   font-size: 40px;
-  color: black;
+  color: white;
 }
 
 
@@ -445,10 +445,10 @@ padding: 10px;
 
 
 #ob {
-  background: #fafafa;
+  background: #2d2d2d;
   padding-top: 5px;
   padding-bottom: 50px;
-  color: black;
+  color: white;
 }
 
 
@@ -457,7 +457,7 @@ padding: 10px;
 
 #ob h1 {
   padding-top: 5px;
-  color: black;
+  color: white;
 }
 
 
@@ -512,12 +512,12 @@ padding: 10px;
 
 
 #d1 {
-  color: black;
+  color: white;
 }
 
 
 #d2 {
-  color: black;
+  color: white;
 }
 
 
@@ -527,7 +527,7 @@ padding: 10px;
 }
 
 .tetete:hover {
-  color: #0dbaff;
+  color: #8A0886;
   transition: 1s;
 }
 
@@ -546,7 +546,7 @@ padding-top: 40px;
 
 
 #test2 {
-  background-image: url(../img/sky2.jpg);
+  background-image: url(../img/phon2.jpg);
   background-attachment: fixed;
   margin-top: -10px;
   padding-bottom: 50px;
@@ -578,7 +578,7 @@ padding-top: 40px;
 
 .testt i {
   font-size: 40px;
-  color: #0dbaff;
+  color: #8A0886;
   text-align: left;
 }
 
@@ -602,7 +602,7 @@ float: right;
 
 .tesssttt:hover {
   font-size: 30px;
-  color: #0dbaff;
+  color: #8A0886;
   transition: 1s;
   float: right;
 }
@@ -628,7 +628,7 @@ float: right;
 
 .t a:hover {
   font-size: 30px;
-  color: #0dbaff;
+  color: #8A0886;
   padding-bottom: 20px;
   transition: 1s;
 }
@@ -648,14 +648,14 @@ float: right;
 .ob2 {
   padding-top: 20px;
   padding-bottom: 50px;
-  color: black;
+  color: white;
 }
 
 
 
 
 .ob2 h1 {
-  color: black;
+  color: white;
   padding-bottom: 50px;
 }
 
@@ -857,7 +857,7 @@ float: right;
 
 
 #dg2 {
-  background-image: url(../img/sky2.jpg);
+  background-image: url(../img/phon2.jpg);
   background-attachment: fixed;
   margin-top: -10px;
   padding-bottom: 50px;
@@ -878,14 +878,14 @@ float: right;
 
 
 #dg2 h1 {
-  color: black;
+  color: white;
   padding-top: 20px;
 }
 
 #dg2 p {
   font-size: 25px;
   padding-top: 30px;
-  color: black;
+  color: white;
 }
 
 
@@ -897,14 +897,14 @@ float: right;
 
 
 #dg2 a:hover {
-  color: #0dbaff;
+  color: #8A0886;
   transition: 1s;
 }
 
 
 
 #test0 {
-  background-image: url(../img/sky2.jpg);
+  background-image: url(../img/phon2.jpg);
   background-attachment: fixed;
   margin-top: -10px;
   padding-bottom: 50px;
@@ -926,7 +926,7 @@ float: right;
 
 #test0 {
   font-size: 30px;
-  color: black;
+  color: white;
 }
 
 
@@ -938,20 +938,20 @@ float: right;
 
 
 #test0 a:hover {
-  color: #0dbaff;
+  color: #8A0886;
   font-size: 30px;
   transition: 1s;
 }
 
 
 .test0000 {
-  background-color: #fafafa;
+  background-color: #2d2d2d;
   min-height: 400px;
 }
 
 
 .test00 h1 {
-  color: black;
+  color: white;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -959,13 +959,13 @@ float: right;
 
 .test000 {
     font-size: 22px;
-    color: black;
+    color: white;
 }
 
 
 .dost {
-  color:black;
-  background-color: #0dbaff;
+  color:white;
+  background-color: #8A0886;
   border-radius: 50px 50px;
   border: 1px solid #000;
 }
@@ -982,7 +982,7 @@ float: right;
 
 
 .dost a:hover {
-  color: #fafafa;
+  color: white;
   transition: 1s;
 }
 
@@ -998,7 +998,7 @@ float: right;
 .slider {
   position: relative;
   overflow: hidden;
-  background-image: url(../img/sky2.jpg);
+  background-image: url(../img/phon2.jpg);
   background-attachment: fixed;
   margin-top: -10px;
   padding-top: 22px;
@@ -1092,7 +1092,7 @@ float: right;
 .slider__item img {
   width: 1100px;
   height: 800px;
-  border: 3px solid #0dbaff;
+  border: 3px solid #8A0886;
 }
 
 
@@ -1100,7 +1100,7 @@ float: right;
   .slider {
     position: relative;
     overflow: hidden;
-    background-image: url(../img/sky2.jpg);
+    background-image: url(../img/phon2.jpg);
     background-attachment: fixed;
     margin-top: -10px;
     padding-top: 22px;
@@ -1126,7 +1126,7 @@ float: right;
   .slider__item img {
     width: 900px;
     height: 700px;
-    border: 3px solid #0dbaff;
+    border: 3px solid #8A0886;
   }
 }
 
@@ -1137,7 +1137,7 @@ float: right;
   .slider {
     position: relative;
     overflow: hidden;
-    background-image: url(../img/sky2.jpg);
+    background-image: url(../img/phon2.jpg);
     background-attachment: fixed;
     margin-top: -10px;
     padding-top: 22px;
@@ -1163,7 +1163,7 @@ float: right;
   .slider__item img {
     width: 800px;
     height: 600px;
-    border: 3px solid #0dbaff;
+    border: 3px solid #8A0886;
   }
 }
 
@@ -1172,7 +1172,7 @@ float: right;
   .slider {
     position: relative;
     overflow: hidden;
-    background-image: url(../img/sky2.jpg);
+    background-image: url(../img/phon2.jpg);
     background-attachment: fixed;
     margin-top: -10px;
     padding-top: 22px;
@@ -1198,7 +1198,7 @@ float: right;
   .slider__item img {
     width: 700px;
     height: 500px;
-    border: 3px solid #0dbaff;
+    border: 3px solid #8A0886;
   }
 }
 
@@ -1209,7 +1209,7 @@ float: right;
   .slider {
     position: relative;
     overflow: hidden;
-    background-image: url(../img/sky2.jpg);
+    background-image: url(../img/phon2.jpg);
     background-attachment: fixed;
     margin-top: -10px;
     padding-top: 22px;
@@ -1235,7 +1235,7 @@ float: right;
   .slider__item img {
     width: 600px;
     height: 400px;
-    border: 3px solid #0dbaff;
+    border: 3px solid #8A0886;
   }
 }
 /* СЛАЙДЕР*/
@@ -1245,13 +1245,13 @@ float: right;
 
 
 .test101010 {
-  background-color: #fafafa;
+  background-color: #2d2d2d;
 }
 
 
 
 .test101010 h1 {
-  color: black;
+  color: white;
   padding-bottom: 50px;
   padding-top: 20px;
 }
