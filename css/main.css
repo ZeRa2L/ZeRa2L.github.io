@@ -546,7 +546,7 @@ padding-top: 40px;
 
 
 #test2 {
-  background-image: url(../img/phon2.jpg);
+  background-image: url(../img/phon4.jpg);
   background-attachment: fixed;
   margin-top: -10px;
   padding-bottom: 50px;
@@ -857,7 +857,7 @@ float: right;
 
 
 #dg2 {
-  background-image: url(../img/phon2.jpg);
+  background-image: url(../img/phon4.jpg);
   background-attachment: fixed;
   margin-top: -10px;
   padding-bottom: 50px;
@@ -904,7 +904,7 @@ float: right;
 
 
 #test0 {
-  background-image: url(../img/phon2.jpg);
+  background-image: url(../img/phon5.jpg);
   background-attachment: fixed;
   margin-top: -10px;
   padding-bottom: 50px;
@@ -998,7 +998,7 @@ float: right;
 .slider {
   position: relative;
   overflow: hidden;
-  background-image: url(../img/phon2.jpg);
+  background-image: url(../img/phon5.jpg);
   background-attachment: fixed;
   margin-top: -10px;
   padding-top: 22px;
@@ -1100,7 +1100,7 @@ float: right;
   .slider {
     position: relative;
     overflow: hidden;
-    background-image: url(../img/phon2.jpg);
+    background-image: url(../img/phon5.jpg);
     background-attachment: fixed;
     margin-top: -10px;
     padding-top: 22px;
@@ -1137,7 +1137,7 @@ float: right;
   .slider {
     position: relative;
     overflow: hidden;
-    background-image: url(../img/phon2.jpg);
+    background-image: url(../img/phon5.jpg);
     background-attachment: fixed;
     margin-top: -10px;
     padding-top: 22px;
@@ -1172,7 +1172,7 @@ float: right;
   .slider {
     position: relative;
     overflow: hidden;
-    background-image: url(../img/phon2.jpg);
+    background-image: url(../img/phon5.jpg);
     background-attachment: fixed;
     margin-top: -10px;
     padding-top: 22px;
@@ -1209,7 +1209,7 @@ float: right;
   .slider {
     position: relative;
     overflow: hidden;
-    background-image: url(../img/phon2.jpg);
+    background-image: url(../img/phon5.jpg);
     background-attachment: fixed;
     margin-top: -10px;
     padding-top: 22px;
@@ -1258,3 +1258,19 @@ float: right;
 
 
 
+#remont {
+  background-color: #2d2d2d;
+}
+
+
+
+#remont div {
+  color: white;
+  font-size: 25px;
+  padding-top: 25px;
+}
+
+
+.remont3 {
+  padding-bottom: 25px;
+}
