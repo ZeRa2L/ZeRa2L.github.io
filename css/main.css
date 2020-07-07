@@ -364,6 +364,7 @@ padding: 10px;
   background-position: center center;
   min-height: 1px;
   width: 100%;
+  height: 500px;
 
   background-size: 100%;
 
@@ -382,6 +383,7 @@ padding: 10px;
   color: white;
   font-size: 45px;
   padding-bottom: 0px;
+  padding-top: 70px;
 }
 
 #r p {
@@ -866,6 +868,7 @@ float: right;
   background-position: center center;
   min-height: 250px;
   width: 100%;
+  height: 500px;
 
   background-size: 100%;
 
@@ -879,11 +882,12 @@ float: right;
 
 #dg2 h1 {
   color: white;
-  padding-top: 20px;
+  padding-top: 120px;
+  font-size: 50px;
 }
 
 #dg2 p {
-  font-size: 25px;
+  font-size: 30px;
   padding-top: 30px;
   color: white;
 }
@@ -891,7 +895,7 @@ float: right;
 
 #dg2 a {
   color: #7b7b7b;
-  font-size: 25px;
+  font-size: 30px;
   transition: 1s;
 }
 
