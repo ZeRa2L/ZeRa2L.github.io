@@ -195,7 +195,7 @@ html {
 
 
 #o h4 {
-  color: #FF0000;
+  color: #DE314E;
   font-size: 30px;
 }
 
@@ -219,7 +219,7 @@ padding: 10px;
 #o i {
   font-size: 40px;
   padding: 30px;
-  color: #FF0000;
+  color: #DE314E;
   padding-top: 70px;
   padding-bottom: 10px;
 }
@@ -288,7 +288,7 @@ padding: 10px;
 
 
 .te00st1 {
-  border: 3px solid #FF0000;
+  border: 3px solid #DE314E;
   width: 100%;
 }
 
@@ -531,7 +531,7 @@ padding: 10px;
 }
 
 .tetete:hover {
-  color: #FF0000;
+  color: #DE314E;
   transition: 1s;
 }
 
@@ -582,7 +582,7 @@ padding-top: 40px;
 
 .testt i {
   font-size: 40px;
-  color: #FF0000;
+  color: #DE314E;
   text-align: left;
 }
 
@@ -606,7 +606,7 @@ float: right;
 
 .tesssttt:hover {
   font-size: 30px;
-  color: #FF0000;
+  color: #DE314E;
   transition: 1s;
   float: right;
 }
@@ -632,7 +632,7 @@ float: right;
 
 .t a:hover {
   font-size: 30px;
-  color: #FF0000;
+  color: #DE314E;
   padding-bottom: 20px;
   transition: 1s;
 }
@@ -903,7 +903,7 @@ float: right;
 
 
 #dg2 a:hover {
-  color: #FF0000;
+  color: #DE314E;
   transition: 1s;
 }
 
@@ -944,7 +944,7 @@ float: right;
 
 
 #test0 a:hover {
-  color: #FF0000;
+  color: #DE314E;
   font-size: 30px;
   transition: 1s;
 }
@@ -971,7 +971,7 @@ float: right;
 
 .dost {
   color:white;
-  background-color: #FF0000;
+  background-color: #DE314E;
   border-radius: 50px 50px;
   border: 1px solid #000;
 }
@@ -1098,7 +1098,7 @@ float: right;
 .slider__item img {
   width: 1100px;
   height: 800px;
-  border: 3px solid #FF0000;
+  border: 3px solid #DE314E;
 }
 
 
@@ -1132,7 +1132,7 @@ float: right;
   .slider__item img {
     width: 900px;
     height: 700px;
-    border: 3px solid #FF0000;
+    border: 3px solid #DE314E;
   }
 }
 
@@ -1169,7 +1169,7 @@ float: right;
   .slider__item img {
     width: 800px;
     height: 600px;
-    border: 3px solid #FF0000;
+    border: 3px solid #DE314E;
   }
 }
 
@@ -1204,7 +1204,7 @@ float: right;
   .slider__item img {
     width: 700px;
     height: 500px;
-    border: 3px solid #FF0000;
+    border: 3px solid #DE314E;
   }
 }
 
@@ -1241,7 +1241,7 @@ float: right;
   .slider__item img {
     width: 600px;
     height: 400px;
-    border: 3px solid #FF0000;
+    border: 3px solid #DE314E;
   }
 }
 /* СЛАЙДЕР*/
