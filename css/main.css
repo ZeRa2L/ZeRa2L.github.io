@@ -245,7 +245,6 @@ padding: 10px;
 
 #wdg {
   background-image: url(../img/phon2.jpg);
-  background-attachment: fixed;
   margin-top: -10px;
   padding-bottom: 50px;
   text-align: center;
@@ -295,7 +294,7 @@ padding: 10px;
 #dg h4 {
   font-size: 50px;
   color: white;
-  padding-top: 70px;
+  padding-top: 100px;
 }
 
 
@@ -312,7 +311,7 @@ padding: 10px;
   color: white;
   font-size: 30px;
   padding-top: 70px;
-  padding-bottom: 100px;
+  padding-bottom: 120px;
 }
 
 
@@ -408,6 +407,7 @@ padding: 10px;
 #ar i {
   font-size: 50px;
   color: white;
+  padding-bottom: 70px;
 }
 
 
@@ -626,12 +626,12 @@ float: right;
 
 .t a {
   color: #7b7b7b;
-  font-size: 30px;
+  font-size: 40px;
   transition: 1s;
 }
 
 .t a:hover {
-  font-size: 30px;
+  font-size: 40px;
   color: #DE314E;
   padding-bottom: 20px;
   transition: 1s;
@@ -970,7 +970,7 @@ float: right;
 .dost {
   color:white;
   background-color: #DE314E;
-  border-radius: 50px 50px;
+  border-radius: 20px 20px;
   border: 1px solid #000;
 }
 
@@ -1282,6 +1282,7 @@ float: right;
 
 #remont2 {
   background: url(../img/phon6.jpg);
+  background-attachment: fixed;
   margin-top: -10px;
   padding-bottom: 50px;
   text-align: center;
@@ -1299,3 +1300,7 @@ float: right;
   background-size: cover;
   color: white;
 }
+
+
+
+
