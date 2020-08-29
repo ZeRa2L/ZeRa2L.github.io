@@ -245,6 +245,7 @@ padding: 10px;
 
 #wdg {
   background-image: url(../img/phon2.jpg);
+  background-attachment: fixed;
   margin-top: -10px;
   padding-bottom: 50px;
   text-align: center;
