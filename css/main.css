@@ -106,6 +106,7 @@ html {
 
 #headerwrap {
   background-image: url(../img/phon.jpg);
+  background-attachment: fixed;
   margin-top: -10px;
   padding-top: 22px;
   text-align: center;
