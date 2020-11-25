@@ -53,7 +53,8 @@ a:hover {
 
 
 .section--gray {
-  background: white;
+  background: url(../img/phon.jpg);
+  background-attachment: fixed;
 }
 
 
@@ -80,14 +81,13 @@ a:hover {
 
 
 .reviews__photo {
-  display: block;
-  width: 200px;
-  height: 200px;
+  width: 60%;
+  height: 450px;
 
   border: 2px solid #95e1d3;
-  border-radius: 50%;
 
-  position: absolute;
+
+
   top: 0;
   left: 0;
   z-index: 1;
