@@ -173,7 +173,6 @@ a:hover {
 
 
 
-
 hr {
   display: block;
   height: 1px;
@@ -202,36 +201,54 @@ html {
 
 
 .navbar-inverse {
-  background: #2d2d2d;
-  background-color: #2d2d2d;
+background: #2d2d2d;
+background-color: #2d2d2d;
 }
-
-
-.navbar-inverse li{
-  transition: 0.5s;
-}
-
-
-
-
-.navbar-inverse li:hover {
-  font-size: 18px;
-  transition: 0.5s;
-}
-
-
 
 
 .navbar-inverse .navbar-brand {
-  color: #999;
-  font-weight: bolder;
-  font-size: 22px;
-  letter-spacing: 1px;
-  transition: 0.5s;
+ color: #ccc;
+ font-weight: bolder;
+ font-size: 22px;
+ letter-spacing: 1px;
+ transition: .5s;
+}
+
+
+.navbar-inverse .navbar-brand:hover {
+  color: white;
+}
+
+
+.navbar-inverse li {
+  transition: .5s;
+}
+
+
+.navbar-inverse li:hover {
+  background-color: #ccc;
 }
 
 
 
+.navbar-inverse .navbar-nav > li > a {
+  color: #ccc;
+}
+
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #2d2d2d;
+  transition: .5s;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+}
+
+
+
+.navbar-inverse .navbar-nav > li > a:hover:last-child {
+  border-right: 1px solid #000;
+}
 
 
 
@@ -1250,50 +1267,6 @@ float: right;
 }
 
 
-.dws-menu {
-  margin: 0;
-  padding: 0;
-} 
 
 
-
-.dws-menu ul,
-.dws-menu ol {
-  list-style: none;
-}
-
-.dws-menu > ul {
-  display: flex;
-  justify-content: center;
-}
-
-
-.dws-menu li ul {
-  position: absolute;
-  min-width: 150px;
-  display: none;
-}
-
-
-.dws-menu li > ul li {
-  border: 1px solid #ccc;
-}
-
-
-.dws-menu li > ul li a {
-  padding: 10px;
-  text-transform: none;
-  background: #f2f2f2;
-}
-
-
-.dws-menu li > ul li ul {
-  position: absolute;
-  right: -150px;
-}
-
-
-.dws-menu li:hover > ul {
-  display: block;
-}
 
