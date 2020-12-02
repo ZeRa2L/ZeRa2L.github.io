@@ -353,7 +353,7 @@ background-color: #2d2d2d;
 
 
 #o h1 {
-  color: white;
+  color: #DE314E;
   font-size: 50px;
 }
 
@@ -394,7 +394,6 @@ padding: 10px;
 
 
 
-
 .w {
   padding-top: 35px;
 }
@@ -411,8 +410,8 @@ padding: 10px;
 
 
 #wdg {
-  clip-path: polygon(0% 0%, 100% 10%, 900% 75%, 100% 100%, 75% 100%, 4% 100%,3% 80%);
-  background-image: url(../img/phon2.jpg);
+  clip-path: polygon(0% 0%, 100% 10%, 900% 75%, 100% 100%, 75% 100%, 3.5% 100%,3% 80%);
+  background: #DE314E;
   background-attachment: fixed;
   margin-top: -10px;
   padding-bottom: 50px;
@@ -435,8 +434,8 @@ padding: 10px;
 
 
 #wdg p {
-  color: white;
-  font-size: 35px;
+  color: #2d2d2d;
+  font-size: 30px;
   padding-top: 70px;
 }
 
@@ -444,7 +443,7 @@ padding: 10px;
 
 
 #wdg h1 {
-  color: white;
+  color: #2d2d2d;
   padding-top: 50px;
   font-size: 50px;
 }
@@ -462,7 +461,7 @@ padding: 10px;
 
 #dg h4 {
   font-size: 50px;
-  color: white;
+  color: #DE314E;
   padding-top: 100px;
 }
 
@@ -477,7 +476,7 @@ padding: 10px;
 
 
 #dg p {
-  color: white;
+  color: #DE314E;
   font-size: 30px;
   padding-top: 70px;
   padding-bottom: 120px;
@@ -559,8 +558,8 @@ padding: 10px;
 
 #r p {
   padding-top: 60px;
-  padding-bottom: 70px;
-  font-size: 40px;
+  padding-bottom: 30px;
+  font-size: 30px;
   color: white;
 }
 
