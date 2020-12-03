@@ -52,11 +52,189 @@ a:hover {
 }
 
 
+.section_dev {
+  padding: 80px 0;
+  background: #de314e;
+}
+
+
 .section--gray {
   background: url(../img/phon.jpg);
   background-attachment: fixed;
 }
 
+
+
+.section__header {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto 50px;
+
+  text-align: center;
+}
+
+
+
+.section__suptitle {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 24px;
+  color: #333;
+}
+
+
+
+.section__title {
+  color: #de314e;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+
+.section__title_dev {
+  color: #2d2d2d;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+
+
+.section__title:after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  margin: 30px auto 30px;
+
+  background-color: #de314e;
+}
+
+
+.section__title_dev:after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  margin: 30px auto 30px;
+
+  background-color: #2d2d2d;
+}
+
+
+.section__text {
+  color: #de314e;
+  font-size: 25px;
+}
+
+
+.section__text_dev {
+  color: #2d2d2d;
+  font-size: 25px;
+}
+
+
+.card {
+  margin: 80px -15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+
+.card__item {
+  width: 33.33333%;
+  padding: 0 15px;
+}
+
+
+
+.card__item:hover .card__img {
+  transform: translate3d(-10px, -10px, 0);
+}
+
+
+
+.card__item:hover .card__img img {
+  opacity: .1;
+}
+
+
+
+.card__item:hover .card__text {
+  opacity: 1;
+}
+
+
+
+.card__img {
+  background: linear-gradient(to bottom, #f38181, #fce38a);
+  transition: transform .2s linear;
+}
+
+
+
+.card__img img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  transition: opacity .1 linear;
+}
+
+
+
+.card__text {
+  width: 100%;
+  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  opacity: 0;
+
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 2;
+  transform: translate3d(0, -50%, 0);
+
+  transition: opacity .2s linear;
+}
+
+
+
+.card__info {
+  margin-top: 20px;
+
+  text-align: center;
+}
+
+
+
+.card__name {
+  margin-bottom: 5px;
+
+  font-size: 14px;
+  color: #333;
+  text-transform: uppercase;
+}
+
+
+
+.card__prof {
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 300;
+  color: #999;
+}
+
+
+.social__inner {
+  position: relative;
+
+  background-color: #de314e;
+}
 
 
 .reviews {
@@ -340,185 +518,21 @@ background-color: #2d2d2d;
 
 
 
-
-
-#o {
-  background: #2d2d2d;
-  padding-top: 5px;
-  padding-bottom: 70px;
+.about__us p {
+  color: #ccc;
+  font-size: 20px;
 }
 
 
-
-
-
-#o h1 {
+.about__us h4 {
   color: #DE314E;
-  font-size: 50px;
 }
 
 
-
-
-
-#o h4 {
+.about__us i {
   color: #DE314E;
   font-size: 30px;
 }
-
-
-
-
-
-#o {
-  color: white;
-}
-
-
-
-
-#o p {
-font-size: 22px;
-padding: 10px;
-}
-
-
-#o i {
-  font-size: 40px;
-  padding: 30px;
-  color: #DE314E;
-  padding-top: 70px;
-  padding-bottom: 10px;
-}
-
-
-
-
-.w {
-  padding-top: 35px;
-}
-
-
-
-
-.w h4 {
-  font-size: 25px;
-}
-
-
-
-
-
-#wdg {
-  clip-path: polygon(0% 0%, 100% 10%, 900% 75%, 100% 100%, 75% 100%, 3.5% 100%,3% 80%);
-  background: #DE314E;
-  background-attachment: fixed;
-  margin-top: -10px;
-  padding-bottom: 50px;
-  text-align: center;
-  background-attachment: relative;
-  background-position: center center;
-  min-height: 500px;
-  width: 100%;
-
-  background-size: 100%;
-
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  color: white;
-}
-
-
-
-
-#wdg p {
-  color: #2d2d2d;
-  font-size: 30px;
-  padding-top: 70px;
-}
-
-
-
-
-#wdg h1 {
-  color: #2d2d2d;
-  padding-top: 50px;
-  font-size: 50px;
-}
-
-.test10 {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-
-.te00st1 {
-  border: 3px solid #DE314E;
-  width: 100%;
-}
-
-#dg h4 {
-  font-size: 50px;
-  color: #DE314E;
-  padding-top: 100px;
-}
-
-
-
-
-#dg {
-  background: #2d2d2d;
-}
-
-
-
-
-#dg p {
-  color: #DE314E;
-  font-size: 30px;
-  padding-top: 70px;
-  padding-bottom: 120px;
-}
-
-
-
-
-.tilt {
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-
-}
-
-
-  .tilt:hover {
-    -webkit-transform: rotate(-10deg);
-    -moz-transform: rotate(-10deg);
-    -o-transform: rotate(-10deg);
-    -ms-transform: rotate(-10deg);
-    transform: rotate(-10deg);
-  }
-  
-  
-
-
-
-.wb {
-  padding-top: 35px;
-  margin-bottom: 0px;
-}
-
-
-
-
-.wb h4 {
-  font-size: 35px;
-}
-
 
 
 
