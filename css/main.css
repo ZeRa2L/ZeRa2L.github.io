@@ -99,6 +99,14 @@ a:hover {
 }
 
 
+.section__title-for-img {
+  color: #ccc;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+
 
 .section__title:after {
   content: "";
@@ -108,6 +116,17 @@ a:hover {
   margin: 30px auto 30px;
 
   background-color: #de314e;
+}
+
+
+.section__title-for-img:after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  margin: 30px auto 30px;
+
+  background-color: #ccc;
 }
 
 
@@ -124,6 +143,12 @@ a:hover {
 
 .section__text {
   color: #de314e;
+  font-size: 25px;
+}
+
+
+.section__text-for-img {
+  color: #ccc;
   font-size: 25px;
 }
 
@@ -537,7 +562,7 @@ background-color: #2d2d2d;
 
 
 
-#r {
+#how__write {
   clip-path: polygon(5% 5%, 100% 10%, 900% 75%, 75% 75%, 75% 100%, 60% 75%, 20% 80%);
   background-image: url(../img/phon3.jpg);
   background-attachment: fixed;
@@ -561,39 +586,11 @@ background-color: #2d2d2d;
 }
 
 
-
-
-#r h4 {
-  color: white;
+#how__write_i i {
   font-size: 50px;
-  padding-bottom: 0px;
-  padding-top: 70px;
-}
-
-#r p {
-  padding-top: 60px;
-  padding-bottom: 30px;
-  font-size: 30px;
-  color: white;
-}
-
-
-#rp {
-  color: white;
-  font-size: 30px;
-  padding: 20px;
-}
-
-
-
-
-#ar i {
-  font-size: 50px;
-  color: white;
+  color: #ccc;
   padding-bottom: 70px;
 }
-
-
 
 
 
@@ -695,9 +692,6 @@ background-color: #2d2d2d;
 
 
 
-
-
-
 #d1 {
   color: white;
 }
@@ -796,24 +790,27 @@ float: right;
 
 
 
-.t {
+.my__seti {
   font-size: 30px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding-top: 15px;
 }
 
 
-.t {
+.my__seti {
   color: white;
 }
 
-.t a {
+
+.my__seti a {
   color: #7b7b7b;
   font-size: 40px;
   transition: 1s;
+  padding-left: 5px;
 }
 
-.t a:hover {
+
+.my__seti a:hover {
   font-size: 40px;
   color: #DE314E;
   padding-bottom: 20px;
