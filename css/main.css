@@ -61,6 +61,18 @@ a:hover {
 .section--gray {
   background: url(../img/phon.jpg);
   background-attachment: fixed;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 500px;
+  width: 100%;
+
+  background-size: 100%;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 
@@ -620,28 +632,17 @@ background-color: #2d2d2d;
 
 
 
-
-
-.tete {
-  font-size: 30px;
-}
-
-
-
-#ob {
+#about__more {
   background: #2d2d2d;
-  padding-top: 5px;
-  padding-bottom: 50px;
-  color: white;
+  color: #ccc;
 }
 
 
 
 
 
-#ob h1 {
-  padding-top: 5px;
-  color: white;
+#about__more h1 {
+  color: #de314e;
 }
 
 
@@ -649,65 +650,38 @@ background-color: #2d2d2d;
 
 #text1 {
   padding: 20px;
-  padding-top: 50px;
   font-size: 20px;
 }
-
-
-
 
 
 
 #text2 {
   padding: 20px;
-  padding-top: 50px;
   font-size: 20px;
-  padding-bottom: 10px;
 }
 
 
 
 #text3 {
-  padding: 20px;
+  padding: 30px;
   font-size: 20px;
-  padding-right: 200px;
-  padding-left: 200px;
+  width: 100%;
 }
 
 
-
-
-@media screen and (max-width: 1200px) {
-  #text3 {
-    padding: 20px;
-    font-size: 20px;
-    width: 100%;
-  }
-
-  .tete {
-    font-size: 30px;
-    padding-bottom: 40px;
-  }
+.about__more-3 {
+  color: #de314e;
+  font-size: 35px;
 }
 
 
-
-#d1 {
-  color: white;
-}
-
-
-#d2 {
-  color: white;
-}
-
-
-.tetete {
+.about__more-a {
   color: #999;
   transition: 1s;
 }
 
-.tetete:hover {
+
+.about__more-a:hover {
   color: #DE314E;
   transition: 1s;
 }
@@ -828,24 +802,6 @@ float: right;
 
 
 
-
-.ob2 {
-  padding-top: 20px;
-  padding-bottom: 50px;
-  color: white;
-}
-
-
-
-
-.ob2 h1 {
-  color: white;
-  padding-bottom: 50px;
-}
-
-
-
-
 .n1 {
   margin: 0;
   padding: 0;
@@ -861,69 +817,6 @@ float: right;
   margin: 0 45px;
   border-radius: 50%;
 }
-
-
-
-
-@media screen and (max-width: 1200px) {
-  .n1 li {
-    position: relative;
-    list-style-type: none;
-    width: 100px;
-    height: 100px;
-    margin: 0 30px;
-    border-radius: 50%;
-  }
-}
-
-
-
-
-
-@media screen and (max-width: 991px) {
-  .n1 li {
-    position: relative;
-    list-style-type: none;
-    width: 100px;
-    height: 100px;
-    margin: 0 15px;
-    border-radius: 50%;
-  }
-}
-
-
-
-
-
-
-
-@media screen and (max-width: 767px) {
-  .n1 li {
-    position: relative;
-    list-style-type: none;
-    width: 100px;
-    height: 100px;
-    margin: 0 10px;
-    border-radius: 50%;
-  }
-}
-
-
-
-
-
-@media screen and (max-width: 730px) {
-  .n1 li {
-    position: relative;
-    list-style-type: none;
-    width: 100px;
-    height: 100px;
-    margin: 0 5px;
-    border-radius: 50%;
-  }
-}
-
-
 
 
 
@@ -1038,8 +931,8 @@ float: right;
 
 
 
-#dg2 {
-  clip-path: circle(60%);
+#participation {
+  clip-path: polygon(5% 5%, 100% 10%, 900% 75%, 75% 75%, 75% 100%, 60% 75%, 20% 80%);
   background-image: url(../img/phon4.jpg);
   background-attachment: fixed;
   margin-top: -10px;
@@ -1061,27 +954,27 @@ float: right;
 }
 
 
-#dg2 h1 {
+#participation h1 {
   color: white;
   padding-top: 120px;
   font-size: 50px;
 }
 
-#dg2 p {
+#participation p {
   font-size: 30px;
   padding-top: 30px;
   color: white;
 }
 
 
-#dg2 a {
+#participation a {
   color: #7b7b7b;
   font-size: 30px;
   transition: 1s;
 }
 
 
-#dg2 a:hover {
+#participation a:hover {
   color: #DE314E;
   transition: 1s;
 }
@@ -1129,16 +1022,15 @@ float: right;
 }
 
 
-.test0000 {
+.galary {
   background-color: #2d2d2d;
-  min-height: 300px;
 }
 
 
-.test00 h1 {
-  color: white;
-  padding-top: 40px;
-  padding-bottom: 40px;
+.galary-h1 h1 {
+  color: #ccc;
+  padding-bottom: 15px;
+  font-size: 40px;
 }
 
 
