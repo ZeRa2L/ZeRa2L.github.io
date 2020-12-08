@@ -604,6 +604,10 @@ background-color: #2d2d2d;
   padding-bottom: 70px;
 }
 
+.munter__img {
+  width: 100%;
+}
+
 
 
 /* стили для 2 страницы*/
@@ -980,48 +984,6 @@ float: right;
 }
 
 
-
-#test0 {
-  background-image: url(../img/phon5.jpg);
-  background-attachment: fixed;
-  margin-top: -10px;
-  padding-bottom: 50px;
-  text-align: center;
-  background-attachment: relative;
-  background-position: center center;
-  min-height: 500px;
-  width: 100%;
-
-  background-size: 100%;
-
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  color: white;
-}
-
-
-#test0 {
-  font-size: 30px;
-  color: white;
-}
-
-
-#test0 a {
-  color: #7b7b7b;
-  font-size: 30px;
-  transition: 1s;
-}
-
-
-#test0 a:hover {
-  color: #DE314E;
-  font-size: 30px;
-  transition: 1s;
-}
-
-
 .galary {
   background-color: #2d2d2d;
 }
@@ -1029,112 +991,12 @@ float: right;
 
 .galary-h1 h1 {
   color: #ccc;
-  padding-bottom: 15px;
   font-size: 40px;
-}
-
-
-.test000 {
-    font-size: 22px;
-    color: white;
-}
-
-
-
-.dost {
-  color:white;
-  background-color: #DE314E;
-  border-radius: 20px 20px;
-  border: 1px solid #000;
-}
-
-
-
-
-.dost a {
-  color: #7b7b7b;
-  font-size: 25px;
-  transition: 1s;
-}
-
-
-
-.dost a:hover {
-  color: white;
-  transition: 1s;
-}
-
-.dosta {
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
-
-
-
-
-
-/* СЛАЙДЕР*/
-
-  
-
-/* СЛАЙДЕР*/
-
-
-
-
-
-.test101010 {
-  background-color: #2d2d2d;
-}
-
-
-
-.test101010 h1 {
-  color: white;
-  padding-bottom: 50px;
-  padding-top: 20px;
-}
-
-
-
-#remont {
-  background-color: #2d2d2d;
-}
-
-
-
-#remont div {
-  color: white;
-  font-size: 25px;
-  padding-top: 25px;
 }
 
 
 .remont3 {
   padding-bottom: 100px;
-}
-
-
-#remont2 {
-  clip-path: polygon(0% 0%, 100% 0%, 900% 75%, 75% 75%, 75% 100%, 60% 75%, 20% 80%);
-  background: url(../img/phon6.jpg);
-  background-attachment: fixed;
-  margin-top: -10px;
-  padding-bottom: 50px;
-  text-align: center;
-  background-attachment: relative;
-  background-position: center center;
-  min-height: 500px;
-  width: 100%;
-  height: 500px;
-
-  background-size: 100%;
-
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  color: white;
 }
 
 
@@ -1177,11 +1039,6 @@ float: right;
 }
 
 
-.ndrfn {
-  padding-top: 100px;
-}
-
-
 .do-sites {
   color:  #f1f1f1;
 }
@@ -1189,4 +1046,285 @@ float: right;
 
 
 
+
+@media (max-width: 1230px) {
+
+  .reviews__text {
+      font-size: 20px;
+  }
+
+}
+
+
+
+@media (max-width: 990px) {
+
+  .reviews .slick-slider {
+      padding: 0 60px;
+  }
+
+  .reviews__photo {
+      width: 150px;
+      height: 150px;
+  }
+
+  .reviews__item {
+      padding-left: 175px;
+  }
+
+}
+
+
+
+@media (max-width: 770px) {
+
+  .header {
+      padding: 10px 0;
+  }
+
+  .nav {
+      display: none;
+      width: 100%;
+
+      position: absolute;
+
+      top: 100%;
+      left: 0;
+
+      background-color: #81ddcce8;
+  }
+
+  .nav__link {
+      display: block;
+      margin: 0;
+      padding: 8px 20px;
+  }
+
+  .nav-toggle {
+      display: block;
+  }
+  
+  .slider__text {
+      display: none;
+  }
+
+  .slider__item.active:before {
+      width: 50%;
+  }
+
+  .section {
+      padding: 40px 0;
+  }
+
+  .section--devices {
+      padding-bottom: 0;
+  }
+
+  .card {
+      margin-top: 50px;
+      justify-content: center;
+  }
+
+  .card__item {
+      width: 100%;
+      max-width: 410px;
+      margin-bottom: 30px;
+  }
+
+  .card__item:last-child {
+      margin-bottom: 0;
+  }
+
+  .reviews__photo {
+      position: static;
+      margin: 0 auto 20px;
+  }
+
+  .reviews__item {
+      padding-left: 0;
+  }
+
+  .reviews__text {
+      font-size: 16px;
+  }
+
+  .reviews__author {
+      font-size: 20px;
+  }
+
+}
+
+
+
+@media (max-width: 575px) {
+
+  .section__header {
+      margin-bottom: 50px;
+  }
+
+  .section__suptitle {
+      font-size: 20px;
+  }
+
+  .section__title {
+      font-size: 24px;
+  }
+  
+  .section__title:after {
+      margin: 20px auto;
+  }
+
+  .reviews .slick-slider {
+      padding: 0;
+  }
+
+  .slick-arrow {
+      top: 18%;
+  }
+
+  @media (max-width: 1230px) {
+
+    .reviews__text {
+        font-size: 20px;
+    }
+
+}
+
+
+
+@media (max-width: 990px) {
+
+    .reviews .slick-slider {
+        padding: 0 60px;
+    }
+
+    .reviews__photo {
+        width: 150px;
+        height: 150px;
+    }
+
+    .reviews__item {
+        padding-left: 175px;
+    }
+
+}
+
+
+
+@media (max-width: 770px) {
+
+    .header {
+        padding: 10px 0;
+    }
+
+    .nav {
+        display: none;
+        width: 100%;
+
+        position: absolute;
+
+        top: 100%;
+        left: 0;
+
+        background-color: #81ddcce8;
+    }
+
+    .nav__link {
+        display: block;
+        margin: 0;
+        padding: 8px 20px;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+    
+    .slider__text {
+        display: none;
+    }
+
+    .slider__item.active:before {
+        width: 50%;
+    }
+
+    .section {
+        padding: 40px 0;
+    }
+
+    .section--devices {
+        padding-bottom: 0;
+    }
+
+    .card {
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    .card__item {
+        width: 100%;
+        max-width: 410px;
+        margin-bottom: 30px;
+    }
+
+    .card__item:last-child {
+        margin-bottom: 0;
+    }
+    
+    .reviews__photo {
+        position: static;
+        margin: 0 auto 20px;
+    }
+
+    .reviews__item {
+        padding-left: 0;
+    }
+
+    .reviews__text {
+        font-size: 16px;
+    }
+
+    .reviews__author {
+        font-size: 20px;
+    }
+
+}
+
+
+
+@media (max-width: 575px) {
+
+    .intro__suptitle {
+        font-size: 25px;
+    }
+
+    .intro__title {
+        font-size: 45px;
+    }
+
+    .section__header {
+        margin-bottom: 50px;
+    }
+
+    .section__suptitle {
+        font-size: 20px;
+    }
+
+    .section__title {
+        font-size: 24px;
+    }
+    
+    .section__title:after {
+        margin: 20px auto;
+    }
+
+    .reviews .slick-slider {
+        padding: 0;
+    }
+
+    .slick-arrow {
+        top: 18%;
+    }
+
+}
+  
 
