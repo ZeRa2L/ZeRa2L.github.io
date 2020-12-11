@@ -291,7 +291,6 @@ a:hover {
 
 
 .reviews__item {
-  min-height: 200px;
   padding: 0px 100px 0px;
   position: relative;
 }
@@ -756,7 +755,7 @@ float: right;
   color: #7b7b7b;
   font-size: 40px;
   transition: 1s;
-  padding-left: 5px;
+  padding-left: 10px;
 }
 
 
@@ -1018,18 +1017,13 @@ float: right;
 
 @media (max-width: 990px) {
 
-    .reviews .slick-slider {
-        padding: 0 60px;
-    }
+  .reviews .slick-slider {
+    padding: 0 60px;
+}
 
-    .reviews__photo {
-        width: 150px;
-        height: 150px;
-    }
-
-    .reviews__item {
-        padding-left: 175px;
-    }
+.reviews__photo {
+  max-height: 350px;
+}
 
 }
 
@@ -1093,18 +1087,13 @@ float: right;
     .card__item:last-child {
         margin-bottom: 0;
     }
-    
-    .reviews__photo {
-        position: static;
-        margin: 0 auto 20px;
-    }
-
-    .reviews__item {
-        padding-left: 0;
-    }
 
     .reviews__text {
         font-size: 16px;
+    }
+
+    .reviews__photo {
+      min-height: 100%;
     }
 
     .reviews__author {
@@ -1201,6 +1190,15 @@ float: right;
 
     #te {
       font-size: 16px;
+    }
+
+  }
+
+
+  @media (max-width: 575px) {
+    .reviews__photo {
+      width: 100%;
+      height: 100%;
     }
 
   }
