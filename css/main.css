@@ -10,7 +10,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
 
-  margin-top: 70px;
 }
 
 h1,
@@ -359,7 +358,42 @@ a:hover {
   transform: rotate(135deg);
 }
 
+.dws-menu {
+  height: 100px;
+  position: fixed;
+}
 
+.dws-menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+
+}
+
+.dws-menu > ul li a {
+  display: block;
+  background: #2d2d2d;
+  padding: 15px 30px 15px 40px;
+  font-size: 14px;
+  color: #ccc;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all .3s ease;
+}
+
+.dws-menu > ul li a:hover {
+  color: #2d2d2d;
+  background: #ccc;
+}
+
+.dws-menu li ul {
+  position: absolute;
+  display: none;
+}
+
+/*
 .dws-menu {
   position: fixed;
   top: 0;
@@ -427,7 +461,7 @@ a:hover {
 .dws-menu li:hover > ul {
   display: block;
 }
-
+*/
 
 
 hr {
@@ -446,7 +480,7 @@ html {
   scroll-behavior: smooth;
 }
 
-
+/*
 .navbar {
   font-weight: 800;
   font-size: 14px;
@@ -497,7 +531,7 @@ background-color: #2d2d2d;
   color: #2d2d2d;
   transition: .5s;
 }
-
+*/
 
 
 #headerwrap {
