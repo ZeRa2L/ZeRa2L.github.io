@@ -55,7 +55,7 @@ a:hover {
 }
 
 .header.fixed {
-  background-color: #81ddcce8;
+  background-color: #de314e;
   box-shadow: 0 5px 10px rgba(0, 0, 0, .3);
 
   position: fixed;
@@ -67,7 +67,7 @@ a:hover {
 }
 
 .header.active {
-  background-color: #81ddcce8
+  background-color: #de314e;
 }
 
 .header__inner {
@@ -80,6 +80,10 @@ a:hover {
   font-size: 30px;
   font-weight: 700;
   color: #fff;
+}
+
+.header__logo:hover {
+  color: #aaaaaa;
 }
 
 .nav {
