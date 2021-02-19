@@ -717,6 +717,7 @@ float: right;
 }
 
 .n {
+  padding: 0;
   display: flex;
 }
 
