@@ -55,7 +55,7 @@ a:hover {
 }
 
 .header.fixed {
-  background-color: #de314e;
+  background-color: #000b49bd;
   box-shadow: 0 5px 10px rgba(0, 0, 0, .3);
 
   position: fixed;
@@ -67,7 +67,7 @@ a:hover {
 }
 
 .header.active {
-  background-color: #de314e;
+  background-color: #000b49bd;
 }
 
 .header__inner {
@@ -137,15 +137,13 @@ a:hover {
   padding: 80px 0;
 }
 
-
 .section_dev {
   padding: 80px 0;
-  background: #de314e;
+  background: #000b49bd;
 }
 
-
 .section--gray {
-  background: url(../img/phon.jpg);
+  background: url(../img/phon1.jpg);
   background-attachment: fixed;
   text-align: center;
   background-attachment: relative;
@@ -161,8 +159,6 @@ a:hover {
   background-size: cover;
 }
 
-
-
 .section__header {
   width: 100%;
   max-width: 950px;
@@ -171,31 +167,25 @@ a:hover {
   text-align: center;
 }
 
-
-
 .section__suptitle {
   font-family: 'Kaushan Script', cursive;
   font-size: 24px;
   color: #333;
 }
 
-
-
 .section__title {
-  color: #de314e;
+  color: #000b49bd;
   font-weight: 700;
   font-size: 30px;
   text-transform: uppercase;
 }
-
 
 .section__title_dev {
-  color: #2d2d2d;
+  color: #ccc;
   font-weight: 700;
   font-size: 30px;
   text-transform: uppercase;
 }
-
 
 .section__title-for-img {
   color: #ccc;
@@ -204,8 +194,6 @@ a:hover {
   text-transform: uppercase;
 }
 
-
-
 .section__title:after {
   content: "";
   display: block;
@@ -213,9 +201,8 @@ a:hover {
   height: 3px;
   margin: 30px auto 30px;
 
-  background-color: #de314e;
+  background-color: #000b49bd;
 }
-
 
 .section__title-for-img:after {
   content: "";
@@ -227,7 +214,6 @@ a:hover {
   background-color: #ccc;
 }
 
-
 .section__title_dev:after {
   content: "";
   display: block;
@@ -235,27 +221,23 @@ a:hover {
   height: 3px;
   margin: 30px auto 30px;
 
-  background-color: #2d2d2d;
+  background-color: #ccc;
 }
-
 
 .section__text {
-  color: #de314e;
+  color: #000b49bd;
   font-size: 25px;
 }
-
 
 .section__text-for-img {
   color: #ccc;
   font-size: 25px;
 }
 
-
 .section__text_dev {
-  color: #2d2d2d;
+  color: #ccc;
   font-size: 25px;
 }
-
 
 .card {
   margin: 80px -15px 0;
@@ -264,39 +246,27 @@ a:hover {
   justify-content: space-between;
 }
 
-
-
 .card__item {
   width: 33.33333%;
   padding: 0 15px;
 }
 
-
-
 .card__item:hover .card__img {
   transform: translate3d(-10px, -10px, 0);
 }
-
-
 
 .card__item:hover .card__img img {
   opacity: .1;
 }
 
-
-
 .card__item:hover .card__text {
   opacity: 1;
 }
-
-
 
 .card__img {
   background: linear-gradient(to bottom, #f38181, #fce38a);
   transition: transform .2s linear;
 }
-
-
 
 .card__img img {
   max-width: 100%;
@@ -305,12 +275,9 @@ a:hover {
   transition: opacity .1 linear;
 }
 
-
 .card__text a {
   color: #fff;
 }
-
-
 
 .card__text {
   width: 100%;
@@ -330,15 +297,11 @@ a:hover {
   transition: opacity .2s linear;
 }
 
-
-
 .card__info {
   margin-top: 20px;
 
   text-align: center;
 }
-
-
 
 .card__name {
   margin-bottom: 5px;
@@ -348,8 +311,6 @@ a:hover {
   text-transform: uppercase;
 }
 
-
-
 .card__prof {
   font-size: 15px;
   font-style: italic;
@@ -357,33 +318,24 @@ a:hover {
   color: #999;
 }
 
-
 .social__inner {
   position: relative;
 
-  background-color: #de314e;
+  background-color: #000b49bd;
 }
-
 
 .reviews {
   position: relative;
 }
 
-
-
 .reviews .slick-slider {
   padding: 0 110px;
 }
-
-
 
 .reviews__item {
   padding: 0px 100px 0px;
   position: relative;
 }
-
-
-
 
 .reviews__photo {
   width: 100%;
@@ -394,8 +346,6 @@ a:hover {
   left: 0;
   z-index: 1;
 }
-
-
 
 .slick-arrow {
   display: block;
@@ -412,13 +362,9 @@ a:hover {
   transform: translateY(-50%);
 }
 
-
-
 .slick-arrow:focus {
   outline: 0;
 }
-
-
 
 .slick-arrow:after {
   content: "";
@@ -430,12 +376,10 @@ a:hover {
   border-left: 2px solid #ccc;
 }
 
-
 .slick-prev {
   left: 0;
   transform: rotate(-45deg);
 }
-
 
 .reviews__btn--next,
 .slick-next {
@@ -457,7 +401,7 @@ html {
 }
 
 #headerwrap {
-  background-image: url(../img/phon.jpg);
+  background-image: url(../img/phon1.jpg);
   background-attachment: fixed;
   margin-top: -10px;
   padding-top: 22px;
@@ -475,11 +419,6 @@ html {
   background-size: cover;
 }
 
-
-
-
-
-
 #headerwrap h1 {
   margin-top: 100px;
   color: white;
@@ -488,20 +427,12 @@ html {
   letter-spacing: 3px;
 }
 
-
-
-
-
 #headerwrap h2 {
   color: white;
   font-size: 40px;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-
-
-
-
 
 .photo {
   width: 270px;
@@ -513,9 +444,6 @@ html {
   margin-top: 100px;
 }
 
-
-
-
 .personPhoto {
   border-radius: 50%;
   width: 100%;
@@ -524,29 +452,22 @@ html {
   margin: 0 auto;
 }
 
-
-
 .about__us p {
   color: #ccc;
   font-size: 20px;
 }
 
-
 .about__us h4 {
-  color: #DE314E;
+  color: #000b49bd;
 }
 
-
 .about__us i {
-  color: #DE314E;
+  color: #000b49bd;
   font-size: 30px;
 }
 
-
-
-
 #how__write {
-  background-image: url(../img/phon3.jpg);
+  background-image: url(../img/phon1.jpg);
   background-attachment: fixed;
   margin-top: -10px;
   padding-top: 22px;
@@ -563,19 +484,15 @@ html {
   background-size: cover;
 }
 
-
 #how__write_i i {
   font-size: 50px;
   color: #ccc;
   padding-bottom: 50px;
 }
 
-
 .munter__img {
   width: 100%;
 }
-
-
 
 /* стили для 2 страницы*/
 
@@ -608,7 +525,7 @@ html {
 
 
 #about__more h1 {
-  color: #de314e;
+  color: #000b49bd;
 }
 
 
@@ -629,7 +546,7 @@ html {
 }
 
 .about__more-3 {
-  color: #de314e;
+  color: #000b49bd;
   font-size: 35px;
 }
 
@@ -639,7 +556,7 @@ html {
 }
 
 .about__more-a:hover {
-  color: #DE314E;
+  color: #000b49bd;
   transition: 1s;
 }
 
@@ -662,7 +579,7 @@ padding-top: 40px;
   
 .footer__links i {
   font-size: 40px;
-  color: #DE314E;
+  color: #000b49bd;
   text-align: left;
 }
 
@@ -681,7 +598,7 @@ float: right;
 
 .footer__home:hover {
   font-size: 30px;
-  color: #DE314E;
+  color: #000b49bd;
   transition: 1s;
   float: right;
 }
@@ -704,7 +621,7 @@ float: right;
 
 .my__seti a:hover {
   font-size: 40px;
-  color: #DE314E;
+  color: #000b49bd;
   padding-bottom: 20px;
   transition: 1s;
 }
@@ -926,7 +843,7 @@ float: right;
 }
 
 #participation {
-  background-image: url(../img/phon4.jpg);
+  background-image: url(../img/phon1.jpg);
   background-attachment: fixed;
   margin-top: -10px;
   padding-bottom: 50px;
@@ -968,68 +885,8 @@ float: right;
 
 
 #participation a:hover {
-  color: #DE314E;
+  color: #000b49bd;
   transition: 1s;
-}
-
-
-.galary {
-  background-color: #2d2d2d;
-}
-
-
-.galary-h1 h1 {
-  color: #ccc;
-  font-size: 40px;
-}
-
-
-.remont3 {
-  padding-bottom: 100px;
-}
-
-
-.circle {
-  width: 70px;
-  height: 70px;
-  border-radius: 100%;
-  background-color: rgb(190, 30, 57);
-  opacity: 1;
-  animation-duration: 4s;
-  animation-delay: 2s;
-  animation-iteration-count: infinite;
-  animation-name: loading;
-  position: relative;
-}
-
-
-.remont3 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
-@keyframes loading {
-  0% {opacity: 0.9; right: 0px; top:0px;}
-  25% {opacity: 0.5; right: 50px; top:50px;}
-  50% {opacity: 0.9; right: 0px; top:50px;}
-  75% {opacity: 0.5; right: 50px; top:0px;}
-  100% {opacity: 0.9; right: 0px; top:0px;}
-}
-
-
-@-webkit-keyframes loading {
-  0% {opacity: 0.9; right: 0px; top:0px;}
-  25% {opacity: 0.5; right: 50px; top:50px;}
-  50% {opacity: 0.9; right: 0px; top:50px;}
-  75% {opacity: 0.5; rigt: 50px; top:0px;}
-  100% {opacity: 0.9; right: 0px; top:0px;}
-}
-
-
-.do-sites {
-  color:  #f1f1f1;
 }
 
 
