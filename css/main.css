@@ -1,9 +1,9 @@
-@import url("https://fontsgoogleapis.com/csss?family=Lato|Raleway");
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
 
 body {
-  background: url(../img/space.jpg);
+  background: #000;
   background-attachment: fixed;
-  font-family: "Lato";
+  font-family: "Neucha";
   font-weight: 300;
   font-size: 16px;
   color: #555;
@@ -20,7 +20,6 @@ h4,
 h5,
 h6 {
   /* Заголовки */
-  font-family: "Raleway";
   font-weight: 300;
   color: black;
 }
@@ -63,8 +62,8 @@ a:hover {
 }
 
 .header.fixed {
-  background-color: rgb(7, 0, 66);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, .3);
+  background-color: rgba(219, 66, 217, .8);
+  box-shadow: 0 5px 10px rgba(219, 66, 217, .8);
 
   position: fixed;
   right: 0;
@@ -145,10 +144,6 @@ a:hover {
   padding: 80px 0;
 }
 
-.section_dev {
-  padding: 80px 0;
-}
-
 .section__header {
   width: 100%;
   max-width: 950px;
@@ -158,30 +153,53 @@ a:hover {
 }
 
 .section__suptitle {
-  font-family: 'Kaushan Script', cursive;
   font-size: 24px;
   color: #333;
 }
 
 .section__title {
-  color: #2196f3;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 5px;
   font-weight: 700;
   font-size: 30px;
-  text-transform: uppercase;
+  text-shadow: 
+  0 0 10PX rgba(255, 255, 255, .8),
+  0 0 20PX rgba(255, 255, 255, .8),
+  0 0 22PX rgba(255, 255, 255, .8),
+  0 0 40PX rgba(217, 66, 217, .8),
+  0 0 60PX rgba(219, 66, 217, .8),
+  0 0 80PX rgba(219, 66, 217, .8),
+  0 0 100PX rgba(219, 66, 217, .5),
+  0 0 140PX rgba(219, 66, 217, .5),
+  0 0 200PX rgba(219, 66, 217, .5);
 }
 
-.section__title_dev {
-  color: #ccc;
-  font-weight: 700;
-  font-size: 30px;
-  text-transform: uppercase;
-}
-
-.section__title-for-img {
-  color: #ccc;
-  font-weight: 700;
-  font-size: 30px;
-  text-transform: uppercase;
+@keyframes neon {
+  0% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+  63% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .section__title:after {
@@ -191,41 +209,11 @@ a:hover {
   height: 3px;
   margin: 30px auto 30px;
 
-  background-color: #2196f3;
-}
-
-.section__title-for-img:after {
-  content: "";
-  display: block;
-  width: 100px;
-  height: 3px;
-  margin: 30px auto 30px;
-
-  background-color: #ccc;
-}
-
-.section__title_dev:after {
-  content: "";
-  display: block;
-  width: 100px;
-  height: 3px;
-  margin: 30px auto 30px;
-
-  background-color: #ccc;
+  background-color: #fff;
 }
 
 .section__text {
-  color: #2196f3;
-  font-size: 25px;
-}
-
-.section__text-for-img {
-  color: #ccc;
-  font-size: 25px;
-}
-
-.section__text_dev {
-  color: #ccc;
+  color: #fff;
   font-size: 25px;
 }
 
@@ -402,6 +390,18 @@ html {
   font-size: 90px;
   font-weight: 300;
   letter-spacing: 3px;
+  text-shadow: 
+  0 0 10PX rgba(255, 255, 255, .8),
+  0 0 20PX rgba(255, 255, 255, .8),
+  0 0 22PX rgba(255, 255, 255, .8),
+  0 0 40PX rgba(217, 66, 217, .8),
+  0 0 60PX rgba(219, 66, 217, .8),
+  0 0 80PX rgba(219, 66, 217, .8),
+  0 0 100PX rgba(219, 66, 217, .5),
+  0 0 140PX rgba(219, 66, 217, .5),
+  0 0 200PX rgba(219, 66, 217, .5);
+  animation: neon 3s infinite;
+  animation-timing-function: linear;
 }
 
 #headerwrap h2 {
@@ -409,6 +409,18 @@ html {
   font-size: 40px;
   letter-spacing: 2px;
   text-transform: uppercase;
+  text-shadow: 
+  0 0 10PX rgba(255, 255, 255, .8),
+  0 0 20PX rgba(255, 255, 255, .8),
+  0 0 22PX rgba(255, 255, 255, .8),
+  0 0 40PX rgba(217, 66, 217, .8),
+  0 0 60PX rgba(219, 66, 217, .8),
+  0 0 80PX rgba(219, 66, 217, .8),
+  0 0 100PX rgba(219, 66, 217, .5),
+  0 0 140PX rgba(219, 66, 217, .5),
+  0 0 200PX rgba(219, 66, 217, .5);
+  animation: neon 3s infinite;
+  animation-timing-function: linear;
 }
 
 .photo {
@@ -444,11 +456,11 @@ html {
 }
 
 .about__us-text h4 {
-  color: #2196f3;
+  color: #fff;
 }
 
 .about__us-text i {
-  color: #2196f3;
+  color: #fff;
   font-size: 30px;
 }
 
@@ -500,7 +512,17 @@ html {
 }
 
 .about__more-text h1 {
-  color: #2196f3;
+  color: #fff;
+  text-shadow: 
+  0 0 10PX rgba(255, 255, 255, .8),
+  0 0 20PX rgba(255, 255, 255, .8),
+  0 0 22PX rgba(255, 255, 255, .8),
+  0 0 40PX rgba(217, 66, 217, .8),
+  0 0 60PX rgba(219, 66, 217, .8),
+  0 0 80PX rgba(219, 66, 217, .8),
+  0 0 100PX rgba(219, 66, 217, .5),
+  0 0 140PX rgba(219, 66, 217, .5),
+  0 0 200PX rgba(219, 66, 217, .5);
 }
 
 .text__more-1,
@@ -516,7 +538,17 @@ html {
 }
 
 .about__more-1 {
-  color: #2196f3;
+  color: #fff;
+  text-shadow: 
+  0 0 10PX rgba(255, 255, 255, .8),
+  0 0 20PX rgba(255, 255, 255, .8),
+  0 0 22PX rgba(255, 255, 255, .8),
+  0 0 40PX rgba(217, 66, 217, .8),
+  0 0 60PX rgba(219, 66, 217, .8),
+  0 0 80PX rgba(219, 66, 217, .8),
+  0 0 100PX rgba(219, 66, 217, .5),
+  0 0 140PX rgba(219, 66, 217, .5),
+  0 0 200PX rgba(219, 66, 217, .5);
   font-size: 35px;
 }
 
