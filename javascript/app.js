@@ -37,25 +37,6 @@ $("[data-scroll]").on("click", function(event) {
 });
 
 
-$("#nav_toggle").on("click", function(event) {
-    event.preventDefault();
-
-    $(this).toggleClass("active");
-    $("#nav").toggleClass("active");
-});
-
-
-
- $("[data-collapse]").on("click", function(event) {
-    event.preventDefault();
-
-    var $this = $(this),
-        blockId = $this.data('collapse');
-
-        $this.toggleClass("active");
- })
-
-
  $("[data-slider]").slick({
     infinite: true,
     fade: false,
