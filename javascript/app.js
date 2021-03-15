@@ -1,7 +1,7 @@
 $(function() {
 
     var header = $("#header"),
-    introH = $("#headerwrap").innerHeight(),
+    introH = $("#about__us-1").innerHeight(),
     scrollOffset = $(window).scrollTop();
 
     checkScroll(scrollOffset);
